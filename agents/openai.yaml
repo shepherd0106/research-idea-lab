@@ -1,0 +1,6 @@
+interface:
+  display_name: "科研选题与跨领域探索"
+  short_description: "发现研究问题，探索跨领域迁移并建设性评估 idea"
+  default_prompt: "使用 $research-idea-lab 帮我分析科研问题，探索适用的跨领域思路并核验相关工作。"
+policy:
+  allow_implicit_invocation: true

@@ -10,6 +10,7 @@ It is designed for researchers at different stages, from entering a broad field 
 
 - **Frame the problem.** Identify the task, the difficulty, who it affects, and the conditions in which it matters.
 - **Examine prior work.** Compare the closest studies by question, inputs, mechanism, supervision, assumptions, and evaluation; look for counterexamples and direct precedents.
+- **Build from recent papers.** Investigate representative work, check open-source starting points, and compare unresolved problems across papers before developing an idea.
 - **Explore candidate directions.** Explain the expected value, core assumptions, and trade-offs of a small number of ideas. Consider cross-domain transfer when it serves the problem.
 - **Apply reviewer-style scrutiny.** Test the strongest objections, including whether the proposal merely combines existing techniques, whether its components are necessary, and whether simpler baselines suffice.
 - **Make the next step testable.** Suggest an appropriate comparison, needed evidence and resources, and results that would weaken or change the idea.
@@ -60,6 +61,7 @@ research-idea-lab/
 ├── agents/openai.yaml           Codex interface configuration
 └── references/
     ├── novelty-and-evaluation.md
+    ├── paper-grounded-ideation.md
     ├── research-transfer.md
     ├── reviewer-stress-test.md
     ├── source.md

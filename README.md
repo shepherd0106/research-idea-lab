@@ -2,7 +2,7 @@
 
 **English** | [简体中文](README.zh-CN.md)
 
-Research Idea Lab is a Codex skill for exploring, developing, and critically assessing research ideas. It starts with a concrete research problem and the available evidence, then examines related work, potential methods, and what would make a proposed contribution worth pursuing.
+Research Idea Lab is a Codex skill for exploring, developing, and assessing research ideas. It adapts to your stage: explore a field, develop an existing idea, or review a proposal before committing resources.
 
 It is designed for researchers at different stages, from entering a broad field to evaluating an existing idea or exploring a transfer from another field.
 
@@ -12,7 +12,8 @@ It is designed for researchers at different stages, from entering a broad field 
 - **Examine prior work.** Compare the closest studies by question, inputs, mechanism, supervision, assumptions, and evaluation; look for counterexamples and direct precedents.
 - **Build from recent papers.** Investigate representative work, check open-source starting points, and compare unresolved problems across papers before developing an idea.
 - **Explore candidate directions.** Explain the expected value, core assumptions, and trade-offs of a small number of ideas. Consider cross-domain transfer when it serves the problem.
-- **Apply reviewer-style scrutiny.** Test the strongest objections, including whether the proposal merely combines existing techniques, whether its components are necessary, and whether simpler baselines suffice.
+- **Develop complete proposals.** Describe a coherent method and its assumptions, while allowing untested mechanisms and cooperating components to remain research hypotheses.
+- **Compare and review constructively.** Distinguish shared problems or reused components from overlap with a complete prior method. Examine the strongest objections and potential improvements without dismissing a proposal merely for combining existing techniques.
 - **Make the next step testable.** Suggest an appropriate comparison, needed evidence and resources, and results that would weaken or change the idea.
 
 The skill distinguishes reported evidence, interpretation, hypotheses, and illustrative examples. It does not guarantee novelty, publication, or experimental results. Literature searches depend on the tools and access available in the session.
@@ -41,8 +42,8 @@ Other examples:
 
 ```text
 $research-idea-lab Evaluate this idea against its closest prior work.
-Is the proposed combination a substantive contribution? Identify the strongest
-reviewer objections and the evidence needed to address them.
+What does the complete proposal potentially add? Identify the strongest relevant
+prior work, concrete objections, and evidence needed to assess them.
 ```
 
 ```text
